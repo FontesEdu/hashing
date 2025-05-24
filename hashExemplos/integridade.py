@@ -12,7 +12,7 @@ hash_mensagem_recebida = hashing(mensagem_recebida)
 if hash_mensagem_enviada == hash_mensagem_recebida:
     print("Mensagem válida")
 else:
-    print("Mensagem modificada")
+    print("Mensagem inválida")
 
 print(mensagem_enviada, hash_mensagem_enviada)
 print(mensagem_recebida, hash_mensagem_recebida)
